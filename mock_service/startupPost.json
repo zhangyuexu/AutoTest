@@ -1,0 +1,16 @@
+[
+  {
+    "description": "模拟一个post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post",
+      "forms": {
+        "name": "zzz",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "text": "这是我的第一个mock的post请求"
+    }
+  }
+]
