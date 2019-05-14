@@ -3,17 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>Test</artifactId>
-        <groupId>com.zyx.test</groupId>
+        <artifactId>test</artifactId>
+        <groupId>com.zyx</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>TestModule1</artifactId>
 
 <dependencies>
     <dependency>
         <groupId>org.testng</groupId>
-        <artifactId>Testng</artifactId>
-        <version>6.10</version>
+        <artifactId>testng</artifactId>
+        <version>6.14.3</version>
     </dependency>
     <dependency>
         <groupId>junit</groupId>
